@@ -34,5 +34,4 @@ jobs:
         DB_DATABASE: database/database.sqlite
       run: vendor/bin/phpunit
     - name: make dir
-      
-      run: mkdir newdir
+      run: sudo mkdir newdir
